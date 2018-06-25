@@ -1,6 +1,6 @@
 public class GoogleJWT {
     
-    public static String SCOPE = 'https://www.googleapis.com/auth/calendar';
+    public static final String SCOPE = 'https://www.googleapis.com/auth/calendar';
     
     public static String getAccessToken() {       
         Auth.JWT jwt = new Auth.JWT();
