@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION"  >
+    <aura:attribute name="doctorId" type="String" />
+    <aura:attribute name="specializationId" type="String" />
+</aura:event>
